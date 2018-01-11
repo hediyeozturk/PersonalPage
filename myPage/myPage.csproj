@@ -89,11 +89,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\nexa-web-font.css" />
+    <Content Include="assets\css\opensans-web-font.css" />
+    <Content Include="assets\css\plugins.css" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\nexa_bold.svg" />
+    <Content Include="assets\fonts\nexa_light.svg" />
+    <Content Include="assets\fonts\opensans-bold.svg" />
+    <Content Include="assets\fonts\opensans-light.svg" />
+    <Content Include="assets\fonts\opensans-lightitalic.svg" />
+    <Content Include="assets\fonts\opensans-regular.svg" />
+    <Content Include="assets\images\aboutH.jpeg" />
+    <Content Include="assets\images\header-bg.jpg" />
+    <Content Include="assets\images\header-m.jpeg" />
+    <Content Include="assets\images\loading.gif" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logoH.png" />
+    <Content Include="assets\images\portfolio-bg.jpg" />
+    <Content Include="assets\images\portfolio-m.jpg" />
+    <Content Include="assets\images\portfolio\1.png" />
+    <Content Include="assets\images\portfolio\10.png" />
+    <Content Include="assets\images\portfolio\2.png" />
+    <Content Include="assets\images\portfolio\3.png" />
+    <Content Include="assets\images\portfolio\4.png" />
+    <Content Include="assets\images\portfolio\5.png" />
+    <Content Include="assets\images\portfolio\6.png" />
+    <Content Include="assets\images\portfolio\7.png" />
+    <Content Include="assets\images\portfolio\8.png" />
+    <Content Include="assets\images\portfolio\9.png" />
+    <Content Include="assets\images\singnature.png" />
+    <Content Include="assets\js\jquery.magnific-popup.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\plugins.js" />
+    <Content Include="assets\js\vendor\bootstrap.min.js" />
+    <Content Include="assets\js\vendor\jquery-1.11.2.min.js" />
+    <Content Include="assets\js\vendor\modernizr-2.8.3-respond-1.4.2.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +142,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\nexa_bold.eot" />
+    <Content Include="assets\fonts\nexa_bold.ttf" />
+    <Content Include="assets\fonts\nexa_bold.woff" />
+    <Content Include="assets\fonts\nexa_bold.woff2" />
+    <Content Include="assets\fonts\nexa_light.eot" />
+    <Content Include="assets\fonts\nexa_light.ttf" />
+    <Content Include="assets\fonts\nexa_light.woff" />
+    <Content Include="assets\fonts\nexa_light.woff2" />
+    <Content Include="assets\fonts\opensans-bold.eot" />
+    <Content Include="assets\fonts\opensans-bold.ttf" />
+    <Content Include="assets\fonts\opensans-bold.woff" />
+    <Content Include="assets\fonts\opensans-bold.woff2" />
+    <Content Include="assets\fonts\opensans-light.eot" />
+    <Content Include="assets\fonts\opensans-light.ttf" />
+    <Content Include="assets\fonts\opensans-light.woff" />
+    <Content Include="assets\fonts\opensans-light.woff2" />
+    <Content Include="assets\fonts\opensans-lightitalic.eot" />
+    <Content Include="assets\fonts\opensans-lightitalic.ttf" />
+    <Content Include="assets\fonts\opensans-lightitalic.woff" />
+    <Content Include="assets\fonts\opensans-lightitalic.woff2" />
+    <Content Include="assets\fonts\opensans-regular.eot" />
+    <Content Include="assets\fonts\opensans-regular.ttf" />
+    <Content Include="assets\fonts\opensans-regular.woff" />
+    <Content Include="assets\fonts\opensans-regular.woff2" />
+    <Content Include="assets\fonts\TTKBDikTemelAbeceBody.ttf" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
